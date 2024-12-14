@@ -1,16 +1,10 @@
-# mtdev_planificador_comidas
+## MTDev Planificador Comidas
 
-A new Flutter project.
+A Flutter app for planning meals and managing shopping lists.
 
-## Getting Started
+### Author
+Developed by [Marta Torre](https://martatorre.dev) (<hola@martatorre.dev>).
 
-This project is a starting point for a Flutter application.
+### License
+This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
