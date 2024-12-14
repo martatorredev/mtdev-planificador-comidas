@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'package:mtdev_planificador_comidas/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key}); // Super parámetro utilizado aquí.
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'MTDev Planificador de Comidas',
+      debugShowCheckedModeBanner: false, // Eliminamos la marca de debug
+      title: 'Planificador de Comidas',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        fontFamily: 'Poppins',
+        primarySwatch: Colors.teal,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(), // Eliminar el 'const'
+      home: const HomeScreen(),
     );
   }
 }
